@@ -253,25 +253,25 @@
 
 
   .grid-img {
-    border: 2px solid green;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 70%;
     height: 50vh;
-    margin: 1em 5em;    
+    margin: 1em 5em;
 
-}
+  }
 
-  .text3,.text6{
+  .text3,
+  .text6 {
     display: none;
   }
 
- .text1 {
+  .text1 {
 
     grid-column: 1/2;
     width: 100%;
-   
+
     background-image: linear-gradient(rgba(216, 9, 9, 0.407), rgba(186, 19, 19, 0.399)), url(../images/exercise1.jpg);
 
     background-repeat: no-repeat;
@@ -280,10 +280,10 @@
     color: rgba(100, 211, 245, 0.132);
 
     text-align: center;
-    
+
     color: rgb(198, 47, 47);
     font-weight: bolder;
-   
+
 
 
   }
@@ -297,15 +297,15 @@
     background-size: cover;
 
     text-align: center;
-    
+
     color: rgb(0, 195, 255);
     font-weight: bolder;
 
 
-  } 
-  
+  }
 
- .text4 {
+
+  .text4 {
     grid-column: 1/2;
     width: 100%;
     background-image: linear-gradient(rgba(74, 61, 61, 0.338), rgba(74, 61, 61, 0.338)), url(../images/exercise4.png);
@@ -313,7 +313,7 @@
     background-position: top;
     background-size: cover;
     text-align: center;
-    
+
     color: rgb(255, 255, 255);
     font-weight: bolder;
 
@@ -325,11 +325,52 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    
-    color: rgb(221, 255, 0);
-    
 
-  } 
+    color: rgb(221, 255, 0);
+
+
+  }
+
+  /* grid img ends*/
+
+  /* bmi */
+
+  .bmi {
+    margin: 1em 5em;
+  }
+
+  .bmi p {
+
+    margin-top: 1em;
+    line-height: 1em;
+  }
+
+  /* bmi ends */
+
+  /* bmi cal  */
+
+  .bmical{
+   
+    background-color: rgba(110, 110, 110, 0.355);
+    padding-left: 4em;
+    padding-top: 2em;
+    margin-top: 2em;
+  }
+  
+  .bmical h1{
+    margin-bottom: 1em;
+  }
+  .bmical table,
+  td,
+  th {
+      text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    border-collapse: collapse;
+    padding: 1em 3.5em;
+  }
+
+
+  /* bmi cal ends  */
 
 
 
