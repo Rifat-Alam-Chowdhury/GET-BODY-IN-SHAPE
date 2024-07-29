@@ -477,5 +477,20 @@
   }
 
 
+      /* meet our team  normal */
+
+  .meet-our-team{
+    text-align: center;
+    padding: 2em;
+    font-size: xx-large;
+  }
+  .meet-our-team p{
+    font-size:medium ;
+    line-height: 2rem;
+    color: rgba(255, 228, 196, 0.435);
+  }
+
+  /* meet our team normal  ends  */
+
 
 }
