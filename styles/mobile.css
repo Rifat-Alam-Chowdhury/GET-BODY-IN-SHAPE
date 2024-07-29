@@ -1,0 +1,336 @@
+@media screen and (max-width:576px) and (min-width:0px) {
+
+  /* nav  */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    color: rgb(255, 94, 0);
+    border: 2px solid black;
+    font-size: xx-large;
+
+
+  }
+
+  .navbtn {
+
+    display: none;
+  }
+
+  /* nav ends */
+
+
+  /* banner of text paragraph and join buttons  */
+
+  /* get body shape text  */
+
+  /* position fixing of that area  */
+  .get-body-shape-and-buttons {
+
+    font-size: 900;
+    margin: 2em;
+
+  }
+
+  .getbodyinshape {
+    font-size: 30px;
+  }
+
+  .textparagraph {
+
+
+    padding-top: 2em;
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.483);
+
+  }
+
+  /* get body shape text  */
+
+  /* join now and download button  */
+
+  .joinnowbtns button {
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.459);
+    border-radius: 20px;
+    background-color: transparent;
+    color: aliceblue;
+
+  }
+
+  /* join now button red color */
+  .joinnowbtns>.joinnowtbn {
+    background-color: rgb(255, 94, 0);
+    border: none;
+  }
+
+  /* join now button red color */
+
+  /* join now and download btns togatger section  */
+  .joinnowbtns {
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+
+  /* join now and download btns togatger section  */
+
+
+  /* join now and download button  */
+
+  /* banner of text paragraph and join buttons ends */
+
+
+  /* img adjusting */
+
+  .getbodshaoeimg img {
+    position: relative;
+    width: 18em;
+  }
+
+
+  /* blurbackground */
+
+  .blur {
+
+    width: 10em;
+    height: 5em;
+    background-color: rgba(255, 255, 255, 0.304);
+    color: white;
+    border-radius: 20px;
+    text-align-last: center;
+    position: absolute;
+    bottom: 1em;
+    left: 10em;
+
+  }
+
+  .playbutton {
+
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: red;
+    position: relative;
+    bottom: 2em;
+    right: 1em;
+
+
+  }
+
+  .blur2 {
+
+    width: 10em;
+    height: 5em;
+    background-color: rgba(255, 255, 255, 0.304);
+    color: white;
+    padding-left: 20px;
+    border-radius: 20px;
+    text-align-last: center;
+    position: absolute;
+    top: 45em;
+
+  }
+
+  /* blur text end  */
+
+
+  /* change your habit section  */
+
+  .change-your-habit h1 {
+
+    text-align: center;
+    font-size: 25px;
+
+
+  }
+
+  .change-your-habit p {
+
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: rgba(255, 228, 196, 0.342);
+    padding: 5em;
+
+  }
+
+
+  /* round imgs */
+
+  .round-img img {
+    margin-top: 2em;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(142, 142, 142);
+    box-shadow: 0 0 0 5px rgba(143, 246, 246, 0.603);
+    border-radius: 50%;
+  }
+
+  .round-img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding-left: 5em;
+      padding-right: 5em; */
+  }
+
+  .round-img h3 {
+    font-size: 30px;
+    color: rgba(255, 194, 115, 0.789);
+  }
+
+  .round-img p {
+    line-height: 25px;
+    font-size: small;
+    color: rgba(143, 246, 246, 0.603);
+    padding: 2em;
+  }
+
+  /* round imgs */
+
+  /* run extramile backgrund color and styles */
+
+  .runextramile {
+
+    background-color: rgba(110, 110, 110, 0.355);
+    border-radius: 20px;
+    padding: 2em;
+    margin: 1em 5em;
+  }
+
+  .run-extra-text p {
+
+    margin-top: 1em;
+    line-height: 30px;
+    color: rgba(127, 255, 212, 0.521);
+
+  }
+
+  .run-extra-text button {
+
+    margin: 1em 5em;
+    padding: 10px 50px;
+    text-decoration: none;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(250, 7, 165, 0.502);
+  }
+
+  .run-extra-mile-img img {
+
+    width: 20em;
+    border-radius: 20px;
+
+
+  }
+
+  /* run extra miles ends */
+
+
+  /* exercise and traning */
+
+  .tarinf-exercise {
+    margin: 1em 5em;
+  }
+
+  .tarinf-exercise h1 {
+    font-size: xx-large;
+  }
+
+  .tarinf-exercise p {
+    margin-top: 1em;
+    color: rgba(240, 248, 255, 0.44);
+    line-height: 30px;
+
+  }
+
+  /* tranig exercise ends */
+
+
+
+  .grid-img {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 70%;
+    height: 50vh;
+    margin: 1em 5em;    
+
+}
+
+  .text3,.text6{
+    display: none;
+  }
+
+ .text1 {
+
+    grid-column: 1/2;
+    width: 100%;
+   
+    background-image: linear-gradient(rgba(216, 9, 9, 0.407), rgba(186, 19, 19, 0.399)), url(../images/exercise1.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgba(100, 211, 245, 0.132);
+
+    text-align: center;
+    
+    color: rgb(198, 47, 47);
+    font-weight: bolder;
+   
+
+
+  }
+
+  .text2 {
+    grid-column: 2/3;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 217, 255, 0.284), rgba(0, 213, 255, 0.257)), url(../images/exercise2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    
+    color: rgb(0, 195, 255);
+    font-weight: bolder;
+
+
+  } 
+  
+
+ .text4 {
+    grid-column: 1/2;
+    width: 100%;
+    background-image: linear-gradient(rgba(74, 61, 61, 0.338), rgba(74, 61, 61, 0.338)), url(../images/exercise4.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+  }
+
+  .text5 {
+    background-image: linear-gradient(rgba(0, 255, 42, 0.406), rgba(0, 255, 17, 0.364)), url(../images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    color: rgb(221, 255, 0);
+    
+
+  } 
+
+
+
+}

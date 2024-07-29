@@ -1,0 +1,44 @@
+@media screen and (max-width:992px) and (min-width:577px) {
+
+       .menubar{
+    display: none;
+   }
+    
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+        color: pink;
+        background-color: black;
+        
+    
+       }
+    
+       .navbtn button{
+        background-color: rgb(5, 0, 0);
+        text-decoration:none;
+        color: aliceblue;
+        border: none;
+        font-size: 1rem;
+        }
+
+        .navbtn{
+            display: flex;
+            gap: 3rem;
+            border: 2px solid rgba(191, 185, 185, 0.488);
+            border-radius: 20rem;
+            padding-right: 10px;
+        }
+
+        .navbtn>.homebtn{
+           
+            background-color: red;
+            border: 3px solid black;
+            border-radius: 20rem;
+            padding:5px 10px ;
+           
+        }   
+    
+  }
