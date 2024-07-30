@@ -600,7 +600,99 @@
   /* trains img background gray div  */
 
 
+
+
+
+
+
+
   
+  /* download video starts here */
+  .downloadedvide{
+    width: 100%;
+    grid-column: 1/2;
+  }
+    .downloadedvide>video{
+      border: 5px solid rgba(70, 69, 70, 0.495);
+      border-radius: 2rem;
+      width: 90%;
+    height: 60vh;
+      
+     
+    }
+    .downloadedvide>h1{
+      text-align: center;
+      margin-bottom: 1em;
+    }
+  
+  /* download video starts here */
+
+  /* youtube video  */
+  .youtubevide{
+    width: 100%;
+    grid-column: 2/3;
+  }
+  .youtubevide>h1{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-right: 4em;
+
+  }
+  .youtubevide>iframe{
+    border: 5px solid rgba(70, 69, 70, 0.495);
+    border-radius: 2rem;
+    width: 90%;
+    height: 60vh;
+
+  }
+  .downloadedvide>h1{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-right: 4em;
+  }
+  /* youtube video  */
+
+  /* maps stars */
+  .map{
+    width: 100%;
+    grid-column: 1/3;
+  
+  }
+  .map>iframe{
+    border: 5px solid rgba(160, 52, 160, 0.495);
+    border-radius: 30px;
+    margin-left: 29%;
+    /* height: 60vh; */
+    
+
+  }
+  .map>h1{
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  /* maps ends */
+
+  /* all videoa nd map griding starst */
+  .video{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+    padding: 3em;
+    
+  }
+
+  /* all videoa nd map griding ends */
+  
+
+
+
+
+
+
+
+
+
+
   /* fotter stars here */
 
   footer{
@@ -680,9 +772,7 @@
     padding: 3em;
     column-gap: 2em;
   }
-  .fitnes-text-p{
-    
-  }
+
   /* footer display grid 3 col ends */
 
 
