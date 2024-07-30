@@ -451,7 +451,7 @@
   .trainers-name1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.318)) ,url(../images/trainer2.png);
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -467,7 +467,7 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.318)) , url(../images/trainer5.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -479,7 +479,7 @@
     background-image:linear-gradient(rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.318)) , url(../images/trainer3.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -490,7 +490,7 @@
   .trainers-name4 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.318)) ,url(../images/trainer6.png);
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -499,6 +499,9 @@
 
   }
 
+  .trainers-name5,.trainers-name6{
+    display: none;
+  }
   /* <!-- trainres picture and div for gray background  --> */
 
 
@@ -517,7 +520,7 @@
 
   /* trains img background gray div  */
   .for-gray-background{
-    border: 2px solid green;
+    border-radius: 2rem;
     margin: 2em;
     padding: 1.5em;
     background-color: rgba(110, 110, 110, 0.6);
